@@ -172,7 +172,7 @@ https://github.com/jialeicui/open-lx01/assets/3217223/b5e0a511-1a28-42c8-9462-f9
     软件准备:
     - 电脑端需要安装 fastboot: 搜 android platform tools, 进到 [Android 的网站](https://developer.android.com/tools/releases/platform-tools) 按照提示根据不同的平台安装 (注意 Windows 还需要装一个[驱动](https://developer.android.com/studio/run/win-usb)才行)
 
-    - 进 fastboot 模式: 打开串口输入框, 重启小爱, 同时按住 s 键, 会进入到 uboot 的命令行, 提示符为 `sunxi#` (记得把输入的一大堆 s 删掉)
+    - 进 fastboot 模式: 打开串口输入框, 重启小爱, 同时按住电脑键盘的 s 键（一直按住）, 会进入到 uboot 的命令行, 提示符为 `sunxi#` (记得把输入的一大堆 s 删掉)
     - 敲命令 `fastboot_test`, 音箱就进入了 fastboot 模式
     - 在电脑端执行 `fastboot devices` 应该能看到 `Android Fastboot         Android Fastboot`
     - 执行 `fastboot flash rootfs1 patch.img` 等 7s 左右提示成功
